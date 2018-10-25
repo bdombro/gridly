@@ -1,1 +1,1 @@
-.row{display:flex}.col{flex:1}@media(max-width:48em){.row{flex-direction:column}.col{flex:0 0 auto}}
+.g-row{display:flex}.g-col{flex:1}@media(max-width:48em){.g-row{flex-direction:column}.g-col{flex:0 0 auto}}

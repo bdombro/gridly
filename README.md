@@ -45,7 +45,7 @@ As of December 2015, [browser support for flexbox](http://caniuse.com/#feat=flex
 Gridly is available on cdnjs.com. [**Check it out**](https://cdnjs.com/libraries/gridly).
 
 > https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly-core.min.css
-> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly-col-widths.min.css
+> https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly-g-col-widths.min.css
 > https://cdnjs.cloudflare.com/ajax/libs/gridly/1.1.0/gridly.min.css
 
 
@@ -64,9 +64,9 @@ Include the CSS file in your page:
 Then you can use the `.row` and `.col` classes:
 
 ```html
-<div class="row">
-    <div class="col">Two</div>
-    <div class="col">Column</div>
+<div class="g-row">
+    <div class="g-col">Two</div>
+    <div class="g-col">Column</div>
 </div>
 ```
 
@@ -108,11 +108,11 @@ Because of the flexbox amazing power, the columns will have the same width (as m
 To extend this basic functionality, there is another file: `gridly-col-widths.min.css`. This adds the following classes:
 
 
- - `col-tenth` has `10%` width
- - `col-fifth` has `20%` width
- - `col-quarter` has `25%` width
- - `col-third` has `33.3333334%` width
- - `col-half` has `50%` width
+ - `g-col-tenth` has `10%` width
+ - `g-col-fifth` has `20%` width
+ - `g-col-quarter` has `25%` width
+ - `g-col-third` has `33.3333334%` width
+ - `g-col-half` has `50%` width
 
 
 Like specified above, the `gridly.min.css` contains both: the core and the custom widths.
